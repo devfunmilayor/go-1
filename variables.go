@@ -36,4 +36,8 @@ func main() {
 	)
 
 	fmt.Println("logging testingBlock1: ", testingBlock1, " AND Logging TestingBlock2::", testingBlock2)
+
+	word1, word2, _ := "hello", "world", "!"
+
+	fmt.Println(word1, word2)
 }
